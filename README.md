@@ -21,7 +21,6 @@
 [![MIT License][license-shield]][license-url]-->
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![site-status]](https://taq-challenge.vercel.app)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -61,7 +60,6 @@
       <ul>
         <li><a href="#prerequisites">Requirements</a></li>
         <li><a href="#installation">Instalation</a></li>
-        <li><a href="#props">Instalation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Site Preview</a></li>
@@ -96,9 +94,9 @@ To run the project it is just:
   ```
 - docker
 - docker-compose
-```sh
+  ```sh
   sudo apt-get install docker-compose
-```
+  ```
 
 ### :gear: Installation
 
@@ -108,30 +106,30 @@ To run the project it is just:
   ```
 
 2. Go to /api
-   ```sh
-   cd ./api
-   ```
-   and 
-   ```sh
-   cd ./microserviceA
-   ```
+  ```sh
+  cd ./api
+  ```
+  and 
+  ```sh
+  cd ./microserviceA
+  ```
 
 3. Install the packages in BOTH directories
-   ```sh
-   npm install
-   ```
-   ou
-   ```sh
-   yarn
-   ```
+  ```sh
+  npm install
+  ```
+  ou
+  ```sh
+  yarn
+  ```
 4. Start the application in BOTH directories
-   ```sh
-   yarn start
-   ```
+  ```sh
+  yarn start
+  ```
 
-5. Call the api at http://localhost:3500/test/[any number]
-   example: http://localhost:3500/test/1
-   Should return the number you pass in the url, in this case is 1
+5. Call the api at http://localhost:3500/test/[any-number]
+  example: http://localhost:3500/test/1
+  Should return the number you pass in the url, in this case is 1
 
 <!-- LICENÇA -->
 
